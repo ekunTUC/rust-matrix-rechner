@@ -1,0 +1,13 @@
+[package]
+name = "matrix-rechner"
+version = "0.1.0"
+authors = ["Eric Kunze <eric.kunze@gmx.net>"]
+
+[dependencies]
+iron = "*"
+persistent = "*"
+rustc-serialize = "*"
+num_cpus = "*"
+
+[dependencies.bodyparser]
+git = "https://github.com/iron/body-parser.git"
